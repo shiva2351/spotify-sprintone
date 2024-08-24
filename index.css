@@ -1,0 +1,94 @@
+
+  
+
+  body {
+    border:2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .square-background {
+    background-image: url("https://s3-alpha-sig.figma.com/img/aade/d9b8/31675510854668dfbe8dfa854e9098b8?Expires=1724630400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=NknnoLft0uejcGITFlDzYEdrRvt4NK3SorthlaR2uaWDfGPwcxNydkdyRXVUVlUdZJyFXAJ5Pq9lN-rR4NK2Ds5wqridvYXxiOneR~LgijF7OKy3SgdfnuHBFI6Wf8AvNdLMBidJXT72rYahUvdlNsIXsGQO9ErwtETA--iOkc44Ng9bqPr8XpRpcB-k1TY0xiWuYMI0KzxAgV790Shz3kTt7HJIjUlZtZ-T7szbh2N1-bRlmX8oVKVljN~Z9DCFNoq4KsQx3dN1Xao0rqY4dK8qIDV4JPpyvtywVG8qR33jWaKIHsGbhqeBm~wRtS5o~SremtxC32ki-CR47roX~g__");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vh; /* Ensures the square fits the height of the viewport */
+    height: 100vh;
+    
+    align-items: center;
+  }
+.main{
+    border:2px solid blue;
+    height: 55rem;
+    width:49rem;
+    background-image: url("https://s3-alpha-sig.figma.com/img/aade/d9b8/31675510854668dfbe8dfa854e9098b8?Expires=1724630400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=NknnoLft0uejcGITFlDzYEdrRvt4NK3SorthlaR2uaWDfGPwcxNydkdyRXVUVlUdZJyFXAJ5Pq9lN-rR4NK2Ds5wqridvYXxiOneR~LgijF7OKy3SgdfnuHBFI6Wf8AvNdLMBidJXT72rYahUvdlNsIXsGQO9ErwtETA--iOkc44Ng9bqPr8XpRpcB-k1TY0xiWuYMI0KzxAgV790Shz3kTt7HJIjUlZtZ-T7szbh2N1-bRlmX8oVKVljN~Z9DCFNoq4KsQx3dN1Xao0rqY4dK8qIDV4JPpyvtywVG8qR33jWaKIHsGbhqeBm~wRtS5o~SremtxC32ki-CR47roX~g__");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+
+}
+.middle-section{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    border:2px solid violet;
+}
+
+.url-link{
+  width: Hug (395px)px;
+height: Hug (70px)px;
+top: 737px;
+left: 972px;
+padding: 20px 40px 20px 40px;
+gap: 10px;
+opacity: 0px;
+
+}
+
+.url-m{
+  transform: rotate(270deg);
+}
+.middle-content-card{
+  background-color: #222222;
+  width:14rem;
+  height: 14rem;
+  border-radius:12rem;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  font-family: Montserrat;
+  font-size: 66px;
+  font-weight: 700;
+  line-height: 66px;
+  border:2px solid red;
+}
+.percent-text{
+  
+  color:white;
+
+  
+}
+.r{
+  
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100px;
+    width: 200px;
+    border-radius: 150px 150px 0 0;
+    background-color: green;
+
+}
